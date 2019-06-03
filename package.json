@@ -4,6 +4,11 @@
   "description": "PCCA certificate verifier",
   "main": "index.js",
   "scripts": {},
+  "homepage": "https://github.com/ProofShow/PCCAVerifier",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ProofShow/PCCAVerifier"
+  },
   "dependencies": {
     "@peculiar/webcrypto": "^1.0.10",
     "dkim-key": "^1.2.0",
@@ -18,5 +23,6 @@
     "nodemailer": "6.1.1",
     "pkijs": "^2.1.77",
     "tlds": "1.203.1"
-  }
+  },
+  "license": "AGPL-3.0-or-later"
 }
