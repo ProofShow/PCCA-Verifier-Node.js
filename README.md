@@ -1,5 +1,6 @@
 ## PCCA Verifier
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Known Vulnerabilities](https://snyk.io/test/github/ProofShow/PCCAVerifier/badge.svg?targetFile=package.json)](https://snyk.io/test/github/ProofShow/PCCAVerifier?targetFile=package.json)
 
 PCCA Verifier can be used to verify a PCCA certificate by checking
 
