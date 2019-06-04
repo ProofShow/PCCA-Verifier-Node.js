@@ -1,6 +1,6 @@
 {
   "name": "pcca-verifier",
-  "version": "0.99.60316",
+  "version": "0.99.60414",
   "description": "PCCA certificate verifier",
   "main": "index.js",
   "scripts": {
