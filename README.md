@@ -10,6 +10,8 @@ PCCA Verifier is a Node.js library for verifying Proof-Carrying Certificates™ 
 - Checking if the input certificate, in particular, carries a DKIM Proof of CSR;
 - Checking if the DKIM Proof of CSR can support the issuance of the input certificate according to the tracked DKIM keys of [PCCA Supported Email Services (PSES)](https://www.proof.show/pcca.html#pses).
 
+For what it means by DKIM Proof of CSR, please refer to [PCCA Research Paper](https://www.proof.show/pcca/PCCA.pdf).
+
 ### Requirement
 - Node.js v10.x.x
 
