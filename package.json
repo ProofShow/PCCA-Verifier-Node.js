@@ -4,7 +4,9 @@
   "description": "PCCA certificate verifier",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha ./test/"
+    "test": "./node_modules/mocha/bin/mocha ./test/",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "homepage": "https://github.com/ProofShow/PCCAVerifier",
   "repository": {
@@ -24,11 +26,13 @@
     "node-fetch": "^2.6.0",
     "nodemailer": "6.1.1",
     "pkijs": "^2.1.77",
+    "snyk": "^1.192.0",
     "tlds": "1.203.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.1.4"
   },
-  "license": "AGPL-3.0-or-later"
+  "license": "AGPL-3.0-or-later",
+  "snyk": true
 }
