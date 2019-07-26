@@ -5,16 +5,17 @@ const PCCAVerifier = require('./index.js');
 const pckageJson = require('./package.json');
 
 const PSES_DOWNLOAD_URL = 'https://download.ca.proof.show/PSES.json';
+const ERROR_MESSAGE = "The input certificate does not carry a valid DKIM proof of CSR";
 const RESULT_MESSAGE = [
-  'Successfully verify PCCA certificate.',
-  'Invalid certificate format.',
-  'Invalid mail \"subject\".',
-  'Invalid mail \"to\".',
-  'Invalid mail \"from\".',
-  'Invalid mail \"date\".',
-  'Invalid mail \"content-type\".',
-  'Invalid mail body.',
-  'Invalid mail DKIM signature.'
+  'The input certificate is correctly formatted and carries a valid DKIM proof of CSR.',
+  'The input certificate is not correctly formatted.',
+  ERROR_MESSAGE + ' (Invalid mail \"subject\")',
+  ERROR_MESSAGE + ' (Invalid mail \"to\")',
+  ERROR_MESSAGE + ' (Invalid mail \"from\")',
+  ERROR_MESSAGE + ' (Invalid mail \"date\")',
+  ERROR_MESSAGE + ' (Invalid mail \"content-type\")',
+  ERROR_MESSAGE + ' (Invalid mail body)',
+  ERROR_MESSAGE + ' (Invalid mail DKIM signature)'
 ];
 
 /**
