@@ -8,10 +8,10 @@
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
-  "homepage": "https://github.com/ProofShow/PCCAVerifier",
+  "homepage": "https://github.com/ProofShow/PCCA-Verifier-Node.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ProofShow/PCCAVerifier"
+    "url": "https://github.com/ProofShow/PCCA-Verifier-Node.js"
   },
   "dependencies": {
     "@peculiar/webcrypto": "^1.0.10",
