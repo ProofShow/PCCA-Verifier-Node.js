@@ -1,8 +1,8 @@
 ## PCCA Verifier
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![npm version](https://badge.fury.io/js/pcca-verifier.svg)](https://badge.fury.io/js/pcca-verifier)
-[![Known Vulnerabilities](https://snyk.io/test/github/ProofShow/PCCAVerifier/badge.svg?targetFile=package.json)](https://snyk.io/test/github/ProofShow/PCCAVerifier?targetFile=package.json)
-[![Build Status](https://travis-ci.com/ProofShow/PCCAVerifier.svg?branch=master)](https://travis-ci.com/ProofShow/PCCAVerifier)
+[![Known Vulnerabilities](https://snyk.io//test/github/ProofShow/PCCA-Verifier-Node.js/badge.svg?targetFile=package.json)](https://snyk.io//test/github/ProofShow/PCCA-Verifier-Node.js?targetFile=package.json)
+[![Build Status](https://travis-ci.com/ProofShow/PCCA-Verifier-Node.js.svg?branch=master)](https://travis-ci.com/ProofShow/PCCA-Verifier-Node.js)
 
 PCCA Verifier is a Node.js library for verifying Proof-Carrying Certificates™ issued by [PCCA](https://pcca.proof.show). The verification is done by
 
