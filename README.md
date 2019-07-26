@@ -1,10 +1,10 @@
-## PCCA Verifier Node.js
+## PCCA Verifier (Node.js)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![npm version](https://badge.fury.io/js/pcca-verifier.svg)](https://badge.fury.io/js/pcca-verifier)
 [![Known Vulnerabilities](https://snyk.io//test/github/ProofShow/PCCA-Verifier-Node.js/badge.svg?targetFile=package.json)](https://snyk.io//test/github/ProofShow/PCCA-Verifier-Node.js?targetFile=package.json)
 [![Build Status](https://travis-ci.com/ProofShow/PCCA-Verifier-Node.js.svg?branch=master)](https://travis-ci.com/ProofShow/PCCA-Verifier-Node.js)
 
-PCCA Verifier Node.js is a library for verifying Proof-Carrying Certificates™ issued by [PCCA](https://pcca.proof.show). The verification is done by
+PCCA Verifier (Node.js) is a library for verifying Proof-Carrying Certificates™ issued by [PCCA](https://pcca.proof.show). The verification is done by
 
 - Checking if the input certificate is correctly formatted according to [PCCA Certification Practice Statement](https://www.proof.show/pcca/PCCA_CPS.pdf);
 - Checking if the input certificate, in particular, carries a DKIM Proof of CSR;
