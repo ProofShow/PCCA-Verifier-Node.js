@@ -26,7 +26,7 @@ npm install --save pcca-verifier
 To use this library, study the sample code in `example.js` which can be run by the following:
 
 ```
-node example.js PATH_OF_CERT
+node example.js INPUT_CERT_PATH
 ```
 
 ### License
