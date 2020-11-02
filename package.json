@@ -18,7 +18,7 @@
     "dkim-key": "^1.2.0",
     "dkim-signature": "^1.2.0",
     "he": "1.2.0",
-    "html-to-text": "5.1.1",
+    "html-to-text": "6.0.0",
     "iconv-lite": "0.4.24",
     "libmime": "4.1.1",
     "linkify-it": "2.1.0",
